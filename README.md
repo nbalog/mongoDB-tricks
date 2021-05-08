@@ -40,3 +40,7 @@ http://localhost:3000/api/logical/getLogicalOr
 http://localhost:3000/api/logical/getLogicalNor  
 http://localhost:3000/api/logical/getLogicalNot  
 
+## Element Operators
+
+
+
