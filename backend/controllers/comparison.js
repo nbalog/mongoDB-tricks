@@ -119,3 +119,20 @@ exports.nin = (req, res, next) => {
     });
 };
 
+exports.ne = (req, res, next) => {
+  const movieQuery = Movie.findOne({
+    quantity: {$ne: 12}
+  });
+  let fetchedMovies;
+  movieQuery
+    .then(documents => {
+      fetchedMovies = documents;
+      res.status(200).json(fetchedMovies);   
+    })
+    .catch(error => {
+      res.status(500).json({
+        message: "Fetching movies failed!"
+      });
+    });
+};
+
