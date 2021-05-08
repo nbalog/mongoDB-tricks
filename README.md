@@ -2,7 +2,7 @@ NodeJS + Express + MongoDB data structure where almost all cases of MongoDB quer
 
 # Installation
 ## Install NodeJS
-- apt-get install nodejs  
+``` apt-get install nodejs ``` 
 ## Install MongoDB 
 ### Add key
 ``` curl -fsSL https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add - ``` 
