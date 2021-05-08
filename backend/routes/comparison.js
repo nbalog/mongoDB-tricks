@@ -7,4 +7,5 @@ router.get("/getComparisonGt/", ComparisonController.gt);
 router.get("/getComparisonGte/", ComparisonController.gte);
 router.get("/getComparisonLt/", ComparisonController.lt);
 router.get("/getComparisonLte/", ComparisonController.lte);
+router.get("/getComparisonIn/", ComparisonController.in);
 module.exports = router;

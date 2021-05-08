@@ -95,3 +95,22 @@ exports.lte = (req, res, next) => {
     });
 };
 
+exports.in = (req, res, next) => {
+  const movieQuery = Movie.findOne({
+    quantity: {$in: [10,11]}
+  });
+  let fetchedMovies;
+  movieQuery
+    .then(documents => {
+      fetchedMovies = documents;
+    })
+    .then(count => {
+      res.status(200).json(fetchedMovies);
+    })
+    .catch(error => {
+      res.status(500).json({
+        message: "Fetching movies failed!"
+      });
+    });
+};
+
