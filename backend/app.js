@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 
 const comparisonRoutes = require("./routes/comparison");
 const logicalRoutes = require("./routes/logical");
+const elementRoutes = require("./routes/element");
 
 const app = express();
 
@@ -32,5 +33,6 @@ app.use((req, res, next) => {
 
 app.use("/api/comparison", comparisonRoutes);
 app.use("/api/logical", logicalRoutes);
+app.use("/api/element", elementRoutes);
 
 module.exports = app;
