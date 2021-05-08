@@ -7,23 +7,23 @@ NodeJS + Express + MongoDB data structure where almost all cases of MongoDB quer
 ### Add key
 ``` curl -fsSL https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add - ``` 
 ### Write to sources.list.d
-- echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list  
+``` echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list ```
 ### Install MongoDB
-- sudo apt install mongodb-org 
+``` sudo apt install mongodb-org ```
 ## Install project
-- git clone https://github.com/nbalog/mongoDB-tricks.git
+``` git clone https://github.com/nbalog/mongoDB-tricks.git ```
 ### Install Express
-- npm install express --save
+``` npm install express --save ```
 ### Install Mongoose  
-- npm install mongoose --save
+``` npm install mongoose --save ```
 ### Install MongoDB package   
-- npm install mongodb --save
+``` npm install mongodb --save ```
 
 # Run
 ### Start MongoDB on localhost
-- sudo systemctl start mongod.service
+``` sudo systemctl start mongod.service ```
 ### Run project  
-- npm run start:server  
+``` npm run start:server ```  
 
 # Routes
 ## Comparison Operators
