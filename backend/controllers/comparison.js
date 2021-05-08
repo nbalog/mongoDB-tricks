@@ -2,7 +2,7 @@ const Movie = require("../models/movie");
 
 exports.eq = (req, res, next) => {
   const movieQuery = Movie.findOne({
-    name: {$eq: "Terminator"}
+    name: {$eq: "Inception"}
   });
   let fetchedMovies;
   movieQuery

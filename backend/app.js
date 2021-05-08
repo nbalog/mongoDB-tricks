@@ -1,9 +1,8 @@
-const path = require("path");
 const express = require("express");
-const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 
 const comparisonRoutes = require("./routes/comparison");
+const logicalRoutes = require("./routes/logical");
 
 const app = express();
 
@@ -32,5 +31,6 @@ app.use((req, res, next) => {
 });
 
 app.use("/api/comparison", comparisonRoutes);
+app.use("/api/logical", logicalRoutes);
 
 module.exports = app;

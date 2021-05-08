@@ -35,3 +35,5 @@ http://localhost:3000/api/comparison/getComparisonNin
 http://localhost:3000/api/comparison/getComparisonNe
 
 ## Logical Operators
+http://localhost:3000/api/logical/getLogicalAnd  
+
