@@ -4,3 +4,6 @@ MongoDB tricks is a NodeJS + Express + MongoDB data structure where almost all c
 git clone https://github.com/nbalog/mongoDB-tricks.git  
 npm install express --save  
 npm install mongoose --save  
+
+# Run
+npm run start:server  
