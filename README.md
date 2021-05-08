@@ -18,7 +18,9 @@ npm install mongoose --save
 npm install mongodb --save
 
 # Run
-sudo systemctl start mongod.service  
+### Start MongoDB on localhost
+sudo systemctl start mongod.service
+### Run project  
 npm run start:server  
 
 # Routes
