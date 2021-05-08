@@ -7,3 +7,10 @@ npm install mongoose --save
 
 # Run
 npm run start:server  
+
+# Routes
+## Comparison Operators
+http://localhost:3000/api/comparison/getComparisonEq  
+http://localhost:3000/api/comparison/getComparisonGt  
+http://localhost:3000/api/comparison/getComparisonGte  
+
