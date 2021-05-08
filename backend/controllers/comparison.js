@@ -8,9 +8,7 @@ exports.eq = (req, res, next) => {
   movieQuery
     .then(documents => {
       fetchedMovies = documents;
-    })
-    .then(count => {
-      res.status(200).json(fetchedMovies);
+      res.status(200).json(fetchedMovies);   
     })
     .catch(error => {
       res.status(500).json({
@@ -27,9 +25,7 @@ exports.gt = (req, res, next) => {
   movieQuery
     .then(documents => {
       fetchedMovies = documents;
-    })
-    .then(count => {
-      res.status(200).json(fetchedMovies);
+      res.status(200).json(fetchedMovies);   
     })
     .catch(error => {
       res.status(500).json({
@@ -46,9 +42,7 @@ exports.gte = (req, res, next) => {
   movieQuery
     .then(documents => {
       fetchedMovies = documents;
-    })
-    .then(count => {
-      res.status(200).json(fetchedMovies);
+      res.status(200).json(fetchedMovies);   
     })
     .catch(error => {
       res.status(500).json({
@@ -65,9 +59,7 @@ exports.lt = (req, res, next) => {
   movieQuery
     .then(documents => {
       fetchedMovies = documents;
-    })
-    .then(count => {
-      res.status(200).json(fetchedMovies);
+      res.status(200).json(fetchedMovies);   
     })
     .catch(error => {
       res.status(500).json({
@@ -78,15 +70,13 @@ exports.lt = (req, res, next) => {
 
 exports.lte = (req, res, next) => {
   const movieQuery = Movie.findOne({
-    quantity: {$lte: 10}
+    quantity: {$lte: 13}
   });
   let fetchedMovies;
   movieQuery
     .then(documents => {
       fetchedMovies = documents;
-    })
-    .then(count => {
-      res.status(200).json(fetchedMovies);
+      res.status(200).json(fetchedMovies);   
     })
     .catch(error => {
       res.status(500).json({
@@ -97,15 +87,30 @@ exports.lte = (req, res, next) => {
 
 exports.in = (req, res, next) => {
   const movieQuery = Movie.findOne({
-    quantity: {$in: [10,11]}
+    quantity: {$in: [10,12]}
   });
   let fetchedMovies;
   movieQuery
     .then(documents => {
       fetchedMovies = documents;
+      res.status(200).json(fetchedMovies);   
     })
-    .then(count => {
-      res.status(200).json(fetchedMovies);
+    .catch(error => {
+      res.status(500).json({
+        message: "Fetching movies failed!"
+      });
+    });
+};
+
+exports.nin = (req, res, next) => {
+  const movieQuery = Movie.findOne({
+    quantity: {$nin: [33,12]}
+  });
+  let fetchedMovies;
+  movieQuery
+    .then(documents => {
+      fetchedMovies = documents;
+      res.status(200).json(fetchedMovies);   
     })
     .catch(error => {
       res.status(500).json({

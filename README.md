@@ -30,5 +30,6 @@ http://localhost:3000/api/comparison/getComparisonGt
 http://localhost:3000/api/comparison/getComparisonGte  
 http://localhost:3000/api/comparison/getComparisonLt  
 http://localhost:3000/api/comparison/getComparisonLte  
-http://localhost:3000/api/comparison/getComparisonIn    
+http://localhost:3000/api/comparison/getComparisonIn  
+http://localhost:3000/api/comparison/getComparisonNin    
 
