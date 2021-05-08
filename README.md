@@ -1,6 +1,8 @@
 MongoDB tricks is a NodeJS + Express + MongoDB data structure where almost all cases of MongoDB queries are described. It can serve as a shalabahter in your MongoDB development. It is designed to put a route (for example, http://localhost:3000/api/comparison/getComparisonGte) in your browser to see the JSON data for each query. It is also an example of a ready to go backend that exports JSON data to the frontend. You must have the NodeJS installed and for the rest follow these instructions:      
 
 # Installation
+## Install NodeJS
+apt-get install nodejs  
 ## Install MongoDB 
 ### Add key
 curl -fsSL https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -  
