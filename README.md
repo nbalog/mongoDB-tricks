@@ -48,5 +48,9 @@ http://localhost:3000/api/element/getElementTypeOf
 
 ## Evaluation Operators
 http://localhost:3000/api/evaluation/getEvaluationJsonSchema  
+http://localhost:3000/api/evaluation/getEvaluationMod  
+http://localhost:3000/api/evaluation/getEvaluationRegex  
+http://localhost:3000/api/evaluation/getEvaluationText  
+http://localhost:3000/api/evaluation/getEvaluationWhere
 
 
