@@ -44,6 +44,8 @@ http://localhost:3000/api/logical/getLogicalNot
 
 ## Element Operators
 http://localhost:3000/api/element/getElementExists  
+http://localhost:3000/api/element/getElementTypeOf  
 
+## Evaluation Operators
 
 
