@@ -6,6 +6,7 @@ const logicalRoutes = require("./routes/logical");
 const elementRoutes = require("./routes/element");
 const evaluationRoutes = require("./routes/evaluation");
 const arrayRoutes = require("./routes/array");
+const commentRoutes = require("./routes/comment");
 
 const app = express();
 
@@ -38,5 +39,6 @@ app.use("/api/logical", logicalRoutes);
 app.use("/api/element", elementRoutes);
 app.use("/api/evaluation", evaluationRoutes);
 app.use("/api/array", arrayRoutes);
+app.use("/api/comment", commentRoutes);
 
 module.exports = app;
