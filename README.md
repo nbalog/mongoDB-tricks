@@ -3,14 +3,15 @@ NodeJS + Express + MongoDB data structure of MongoDB query operators. It is desi
 # Installation
 ## Install project
 ``` git clone https://github.com/nbalog/mongoDB-tricks.git ```
+## Install NodeJS
+``` apt-get install nodejs ``` 
 ### Install Express
 ``` npm install express --save ```
 ### Install Mongoose  
 ``` npm install mongoose --save ```
 ### Install MongoDB package   
 ``` npm install mongodb --save ```
-## Install NodeJS
-``` apt-get install nodejs ``` 
+
 ## Install MongoDB 
 ### Add key
 ``` curl -fsSL https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add - ``` 
