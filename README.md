@@ -53,4 +53,6 @@ http://localhost:3000/api/evaluation/getEvaluationRegex
 http://localhost:3000/api/evaluation/getEvaluationText  
 http://localhost:3000/api/evaluation/getEvaluationWhere
 
+## Array Operators
+
 
