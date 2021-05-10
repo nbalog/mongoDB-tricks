@@ -1,6 +1,14 @@
 NodeJS + Express + MongoDB data structure of MongoDB query operators. It is designed to put a route (for example, http://localhost:3000/api/comparison/getComparisonGte) in your browser to see the JSON data for each query. It is also an example of a ready to go backend that exports JSON data to the frontend. For writing to MongoDB from frontend form check this link https://github.com/nbalog/MEAN-form-example.  
 
 # Installation
+## Install project
+``` git clone https://github.com/nbalog/mongoDB-tricks.git ```
+### Install Express
+``` npm install express --save ```
+### Install Mongoose  
+``` npm install mongoose --save ```
+### Install MongoDB package   
+``` npm install mongodb --save ```
 ## Install NodeJS
 ``` apt-get install nodejs ``` 
 ## Install MongoDB 
@@ -10,14 +18,6 @@ NodeJS + Express + MongoDB data structure of MongoDB query operators. It is desi
 ``` echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list ```
 ### Install MongoDB
 ``` sudo apt install mongodb-org ```
-## Install project
-``` git clone https://github.com/nbalog/mongoDB-tricks.git ```
-### Install Express
-``` npm install express --save ```
-### Install Mongoose  
-``` npm install mongoose --save ```
-### Install MongoDB package   
-``` npm install mongodb --save ```
 
 # Run
 ### Start MongoDB on localhost
