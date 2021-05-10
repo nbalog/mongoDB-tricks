@@ -4,7 +4,7 @@ NodeJS + Express + MongoDB data structure of MongoDB query operators. It is desi
 ## Install project
 ``` git clone https://github.com/nbalog/mongoDB-tricks.git ```
 ## Install NodeJS
-``` apt-get install nodejs ``` 
+``` apt-get install nodejs ```   
 Run ``` npm install" ``` inside this project folder to install all dependencies.
 
 ## Install MongoDB 
