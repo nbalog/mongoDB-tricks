@@ -1,4 +1,4 @@
-NodeJS + Express + MongoDB data structure where almost all cases of MongoDB queries are described. It is designed to put a route (for example, http://localhost:3000/api/comparison/getComparisonGte) in your browser to see the JSON data for each query. It is also an example of a ready to go backend that exports JSON data to the frontend.  
+NodeJS + Express + MongoDB data structure of MongoDB Operators. It is designed to put a route (for example, http://localhost:3000/api/comparison/getComparisonGte) in your browser to see the JSON data for each query. It is also an example of a ready to go backend that exports JSON data to the frontend.  
 
 # Installation
 ## Install NodeJS
@@ -54,5 +54,9 @@ http://localhost:3000/api/evaluation/getEvaluationText
 http://localhost:3000/api/evaluation/getEvaluationWhere
 
 ## Array Operators
+http://localhost:3000/api/array/getArrayAll  
+http://localhost:3000/api/array/getArraySize  
+http://localhost:3000/api/array/getArrayElemMatch  
 
+## Comment Operator
 

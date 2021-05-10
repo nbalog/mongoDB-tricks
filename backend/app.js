@@ -5,6 +5,7 @@ const comparisonRoutes = require("./routes/comparison");
 const logicalRoutes = require("./routes/logical");
 const elementRoutes = require("./routes/element");
 const evaluationRoutes = require("./routes/evaluation");
+const arrayRoutes = require("./routes/array");
 
 const app = express();
 
@@ -36,5 +37,6 @@ app.use("/api/comparison", comparisonRoutes);
 app.use("/api/logical", logicalRoutes);
 app.use("/api/element", elementRoutes);
 app.use("/api/evaluation", evaluationRoutes);
+app.use("/api/array", arrayRoutes);
 
 module.exports = app;
