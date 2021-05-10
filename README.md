@@ -1,4 +1,4 @@
-NodeJS + Express + MongoDB data structure of MongoDB query operators. It is designed to put a route (for example, http://localhost:3000/api/comparison/getComparisonGte) in your browser to see the JSON data for each query. It is also an example of a ready to go backend that exports JSON data to the frontend. For writing to MongoDB from frontend form check this link https://github.com/nbalog/MEAN-form-example.  
+NodeJS + Express + MongoDB data structure for MongoDB query operators. It is designed to put a route (for example, http://localhost:3000/api/comparison/getComparisonGte) in your browser to see the JSON data for each query. It is also an example of a ready to go backend that exports JSON data to the frontend. For writing to MongoDB from frontend form check this link https://github.com/nbalog/MEAN-form-example.  
 
 # Installation
 ## Install project
